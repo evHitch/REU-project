@@ -1,3 +1,4 @@
+
 directory = dir("photos/*.jpg");
 
  for i = 1:length(directory)
@@ -8,8 +9,8 @@ directory = dir("photos/*.jpg");
       imtool(k1, []);
       imhist(k1);
       
-      min = 45;
-      max = 180;
+      min = 30;
+      max = 250;
 
       k2 = double(k1);
       k3 = (k2-min)./(max-min);
@@ -17,6 +18,6 @@ directory = dir("photos/*.jpg");
       k5=uint8(k4);
       imtool(k5,[]);
       imhist(k5);
-      imshow(img);
+     % imshow(img);
       myHist = histogram(img);
  end
