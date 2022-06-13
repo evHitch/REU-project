@@ -1,6 +1,7 @@
 
 directory = dir("photos/*.jpg");
 
+% Histogram Normalization
  for i = 1:length(directory)
       %Finds original image and converts to grayscale
       image_path = strcat("photos/",directory(i).name);
@@ -18,6 +19,7 @@ directory = dir("photos/*.jpg");
       k5=uint8(k4);
       imtool(k5,[]);
       imhist(k5);
-     % imshow(img);
       myHist = histogram(img);
+      new_file_path = strcat("normalized/",directory(i).name);
+      imwrite(k5,new_file_path);
  end
