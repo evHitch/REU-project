@@ -1,0 +1,14 @@
+      
+      maskPerim = bwperim(finalTumorMask);
+      radius = 6;
+      decomposition = 0;
+      se = strel('disk', radius, decomposition);
+      smallTumorMask = imerode(finalTumorMask,se);
+      maskPerim2 = bwperim(smallTumorMask);
+      bothMasks = maskPerim2 + maskPerim;
+      maskPerim = closeBorder(bothMasks);
+      imshow(maskPerim);
+      img2(maskPerim == 1) = 255;
+      img2 = imgaussfilt(img2,2);
+      newpath = strcat("9_a/",directory(i).name);
+      imwrite(maskPerim,newpath);
