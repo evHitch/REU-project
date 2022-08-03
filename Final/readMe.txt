@@ -37,7 +37,7 @@ isolateTumor.m
 seggers.m
 finalcutt.m
 
-Required Folders for Running 'final_without_unet' (Located in the Same Directory as Above Files):
+Required Folders for Running 'final_without_unet.m' (Located in the Same Directory as Above Files):
 1_photos
 2_edge
 3_gauss
