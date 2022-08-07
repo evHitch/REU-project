@@ -28,7 +28,7 @@ Research Papers Used for Benchmarking:
 Files Used for Benchmarking:
 1)
 2)
-3)
+3) convertMAT2JPG.m - converts .MAT type given by Image Segmenter when creating the binary masks to .JPG
 .
 .
 .
