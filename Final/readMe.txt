@@ -133,7 +133,7 @@ MATLAB Tips & Tricks:
 - When creating functions or files to call later, the name of the file must match the function name
 - To run this algorithm successfully, all files must be located in the same path
 - Works best with MATLAB Online or version 'a' (aka released in March of each year)
-	- MATLAB R2017b Desktop App had issues with "directory names", ie "1_photos"
+	- MATLAB R2017b Desktop App had issues with "directory names", ie "1_photos" when running 2017b version
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
