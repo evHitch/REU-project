@@ -16,7 +16,8 @@ Dr. Enyue Lu, Salisbury University - EALU@salisbury.edu
 
 **********************************************************************************************************************************************
 MATLAB ALGORITHMS
-----------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
 BENCHMARKING INSTRUCTIONS
 
 Research Papers Used for Benchmarking:
@@ -27,33 +28,60 @@ Research Papers Used for Benchmarking:
 
 
 Files Used for Benchmarking:
-1)
-2)
-3) convertMAT2JPG.m - converts .MAT type given by Image Segmenter when creating the binary masks to .JPG
-.
-.
-.
+1) testa.m
+	a) histNormal.m
+	b) isolateTumor.m
+2) testb.m
+3) testd.m 
+4) convertMAT2JPG.m - converts .MAT type given by Image Segmenter when creating the binary masks to .JPG
+
+-------------------------------------------------------------------------
+
+Required Folders for Running 'testa.m':
+1) 1_photos
+2) 2_preprocessing
+3) 3_CannyEdge
+4) 3_CannyEdgeApplied
+5) 4_HarrisLaplace_Isolated
+
+Instructions for Running ' testa.m':
+1) Create specified folders in the same directory as testa.m
+2) Place data set in 1_photos
+3) copy histNormal.m & isolateTumor to same directory
+4) Run the program to populate the remaining folders. 
+
+-------------------------------------------------------------------------
+
+Required Folders for Running ' testb.m':
+1) 1_photos
+2) 2_preprocessing
+3) 3_deadTumorSegSet
+4) 3_TumorSeg
+
+Instructions for Running ' testb.m':
+1) create specified folders in the same directory as testb.m
+2) place data set in 1_photos
+3) Run the program to populate the remaining folders. 
+
+-------------------------------------------------------------------------
+
+Required Folders for Running ' testd.m':
+1) 1_photos
+2) 2_Gaussian_d
+3) 3_Median_Gauss_d
+4) 3_Median_No_Gauss_d
+5) 4_Watershed_d
+6) 6_Weiner_d
+7) 8_GradMag_d
+8) 9_RegMax_d
 
 
-Required Folders for Running ' .m':
-1)
-2)
-3)
-.
-.
-.
+Instructions for Running 'testd.m':
+1) Create specified folders in the same directory as testd.m
+2) Place data set in 1_photos
+3) Run the program to populate the remaining folders. 
 
-
-Instructions for Running ' .m':
-1)
-2)
-3)
-.
-.
-.
-
-
-----------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 IMAGE PROCESSING ALGORITHM DESCRIPTION AND USE INSTRUCTIONS
 
 Image Folders (MATLAB Algorithm):
@@ -112,31 +140,27 @@ MATLAB Tips & Tricks:
 DATA AUGMENTATION INSTRUCTIONS
 
 Files Used to Augment Images:
-1)
-2)
-3)
-.
-.
-.
+Main File:
+1) aug.m 
+Function Files:
+2) findCenterOfMass.m
+3) hitNormal.m
+	
 
 
 Required Folders for Running '.m':
-1)
-2)
-3)
-.
-.
-.
-
+1) 1_binpics
+2) 1_pics 
+3) 2_augPis
+4) 3_normPics
+5) 4_gauss
+6) 5_noise
 
 Instructions for Running Augmentation Algorithm:
-1)
-2)
-3)
-.
-.
-.
-
+1) Create specified folders in the same directory as aug.m
+2) Place data set in 1_photos
+3) Place findCenterOfMass.m & histNormal.m in same directory as aug.m
+3) Run the program to populate the remaining folders. 
 
 
 **********************************************************************************************************************************************
