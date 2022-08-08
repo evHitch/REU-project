@@ -175,7 +175,6 @@ Required Python Libraries:
 2) TensorFlow
 3) Numpy
 
-
 Instructions for Running U-Net:
 1)Make a folder to write preproccsed images to
 2)Set the write directory in preprocess.m to the folder created and the read directory to the original images
