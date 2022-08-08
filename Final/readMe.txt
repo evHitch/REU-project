@@ -169,7 +169,8 @@ U-NET DESCRIPTION AND USE INSTRUCTIONS
 Files Used for Python Neural Network:
 1) predict_tumor.py
 2) preprocess.m
-3) 70segmodel5.h5
+3) 70segmodel5.h5(download from https://drive.google.com/file/d/1nS3duOciQN6HPhubEi5GRMre792HtrXV/view?usp=sharing
+)
 4) train_net.py(optional)
 
 Required Python Libraries:
