@@ -170,13 +170,14 @@ Files Used for Python Neural Network:
 1) predict_tumor.py
 2) preprocess.m
 3) 70segmodel5.h5
+4) train_net.py(optional)
 
 Required Python Libraries:
 1) Keras
 2) TensorFlow
 3) Numpy
 
-Instructions for Running U-Net:
+Instructions for Running pre trained U-Net:
 1)Make a folder to write preproccsed images to
 2)Set the write directory in preprocess.m to the folder created and the read directory to the original images
 3)Run preprocess.py
@@ -184,3 +185,17 @@ Instructions for Running U-Net:
 5)Set the read directory to file path of preprocessed images and write directory to the predicted image folder
 6)Run predict_tumor.py after making sure it loads the pre-trained model named 70segmodel5.h5
 
+How to train U-Net(optional):
+1) Make folder of original images cropped to 224x224
+2) Make folder of images labeled with ground truth
+3) Set train_img_names to folder from step 1
+4) Set train_mask_names to folder from step 2
+5) Randomly choose a representative sample of 40% of images from folder in step 1 along with their corresponding masks from folder 2
+6) Put half of those images/masks into a validation set
+7) Put other half into testing set
+8) Make sure val_img_names is directory of validation images
+9) Make sure val_mask_names is directory of validation masks
+10) If training on pretrained weights load the previous model in line 108 otherwise delete the line
+11) Run train_net.py
+12) Save model in name/directory of choosing in line 114
+13) To get testing accuracy test the model on the testing set with predict() function of the model
