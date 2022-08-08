@@ -10,8 +10,9 @@ Sarah Hodges, Liberty University - sarah.hodges1401@gmail.com
 Kevin Zuang, Brown University - kevinzuang@gmail.com
 
 Acknowledgement:
-Dr. Yanwei Jin, University of Maryland, Eastern Shore - yjin@umes.edu
-Dr. Qiuhong He, University of North Carolina, Chapel Hill - Data Set Supplier
+Dr. Yanwei Jin, University of Maryland Eastern Shore - yjin@umes.edu
+Dr. Qiuhong He, University of North Carolina, Chapel Hill 
+Dr. Enyue Lu, Salisbury University - EALU@salisbury.edu
 
 **********************************************************************************************************************************************
 MATLAB ALGORITHMS
@@ -19,10 +20,10 @@ MATLAB ALGORITHMS
 BENCHMARKING INSTRUCTIONS
 
 Research Papers Used for Benchmarking:
-1)
-2)
-3)
-4)
+1) "An Algorithm for Detecting Brain Tumors in MRI Images"
+2) "Brain Tumor Segmentation to Calculate Percentage Tumor Using MRI" 
+3) "Efficient Detection of Brain Tumor from MRIs Using K-Means Segmentation and Normalized Histogram"
+4) "Minimum Time Delat and More Efficient Image Filtering Brain tumor Detection with the help of MATLAB"
 
 
 Files Used for Benchmarking:
