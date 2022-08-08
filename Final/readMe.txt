@@ -21,10 +21,10 @@ MATLAB ALGORITHMS
 BENCHMARKING INSTRUCTIONS
 
 Research Papers Used for Benchmarking:
-1) "An Algorithm for Detecting Brain Tumors in MRI Images"
-2) "Brain Tumor Segmentation to Calculate Percentage Tumor Using MRI" 
-3) "Efficient Detection of Brain Tumor from MRIs Using K-Means Segmentation and Normalized Histogram"
-4) "Minimum Time Delat and More Efficient Image Filtering Brain tumor Detection with the help of MATLAB"
+a) "An Algorithm for Detecting Brain Tumors in MRI Images"
+b) "Brain Tumor Segmentation to Calculate Percentage Tumor Using MRI" 
+c) "Efficient Detection of Brain Tumor from MRIs Using K-Means Segmentation and Normalized Histogram"
+d) "Minimum Time Delay and More Efficient Image Filtering Brain Tumor Detection with the help of MATLAB"
 
 
 Files Used for Benchmarking:
@@ -146,8 +146,6 @@ Function Files:
 2) findCenterOfMass.m
 3) hitNormal.m
 	
-
-
 Required Folders for Running '.m':
 1) 1_binpics
 2) 1_pics 
