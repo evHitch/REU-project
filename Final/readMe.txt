@@ -168,33 +168,15 @@ U-NET DESCRIPTION AND USE INSTRUCTIONS
 
 Files Used for Python Neural Network:
 1) predict_tumor.py
-2) train_net.py
-3) 
-.
-.
-.
 
 Required Python Libraries:
 1) Keras
 2) TensorFlow
-3) 
-.
-.
-.
+3) Numpy
 
-Other Required Software:
-1)
-2)
-3)
-.
-.
-.
 
 Instructions for Running U-Net:
-1)
-2)
-3)
-.
-.
-.
+1)Set the directory to the file path containing preprocessed images
+2)Make/set a directory to write the images to
+3)Run predict_tumor.py
 
