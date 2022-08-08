@@ -169,6 +169,7 @@ U-NET DESCRIPTION AND USE INSTRUCTIONS
 Files Used for Python Neural Network:
 1) predict_tumor.py
 2) preprocess.m
+3) 70segmodel5.h5
 
 Required Python Libraries:
 1) Keras
@@ -181,5 +182,5 @@ Instructions for Running U-Net:
 3)Run preprocess.py
 4)Make/set a folder to write the predicted images to
 5)Set the read directory to file path of preprocessed images and write directory to the predicted image folder
-6)Run predict_tumor.py
+6)Run predict_tumor.py after making sure it loads the pre-trained model named 70segmodel5.h5
 
